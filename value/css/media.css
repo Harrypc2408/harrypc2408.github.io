@@ -1,0 +1,289 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header .header-logo{
+		padding-left: 0;
+	}
+	.header .header-logo-nav-title{
+		margin-left: 20px;
+	}
+	.header .header-logo-nav-list{
+		margin-left: 20px;
+	}
+	.header .header-search .header-search-nav{
+		margin-left: 0;
+	}
+	.header .header-search .search-line{
+		margin-left: 50px;
+	}
+	.right-block-content .right-block1 .right-block1-descripton{
+		width: 63%;
+	}
+	.right-block-content .right-block2 .right-block2-descripton{
+		width: 63%;
+	}
+	.right-block-content .right-block3 .right-block3-descripton{
+		width: 63%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.footer .custom-service-head h4{
+		font-size: 14px;
+	}
+	.footer .shop-costgro-head h4{
+		font-size: 14px;
+	}
+	.footer .follow-costgro-head h4 {
+		font-size: 14px;
+	}
+	.footer .follow-costgro-head-up h4{
+		font-size: 14px
+	}
+	.right-block-content .right-block3 .right-block3-descripton{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.right-block-content .right-block3 .right-block3-img{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	.right-block-content .right-block2 .right-block2-descripton{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.right-block-content .right-block2 .right-block2-img{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.right-block1-coments{
+		float: right;
+		margin-top: -130px;
+	}
+	.right-block2-coments{
+		float: right;
+		margin-top: -130px;
+	}
+	.right-block3-coments{
+		float: right;
+		margin-top: -130px;
+	}
+	.wrap-coment-time{
+		display: inline-block;
+	}
+	.right-block-content .right-block1 .right-block1-descripton{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.right-block-title{
+		text-align: center;
+	}
+	.right-block-content .right-block1 .right-block1-img {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.left-side .join-newsletter .join-newsletter-line input{
+		width: 135px;
+	}
+	.header .header-logo{
+		display: block;
+		text-align: center;
+		float: none;
+	}
+	.header-logo-nav-title{
+		margin-left: 0px;
+		display: block;
+	}
+	.header .header-logo-nav-title{
+		margin-left: 0;
+	}
+	.header-logo-nav-list{
+		margin-left: 0;
+	}
+	.header .header-logo-nav ul li a{
+		padding: 0 4px;
+	}
+	.header .header-logo-nav-list{
+		margin-left: 0;
+	}
+	.header .header-logo-nav{
+		text-align: center;
+	}
+	.header-search{
+		margin-top: 50px;
+	}
+	.header .header-search .search-line{
+		margin-left: 104px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.footer .follow-costgro-search-line input{
+		width: 50%;
+		margin: 20px auto;
+	}
+	.footer .follow-costgro-head-up h4{
+		text-align: center;
+	}
+	.footer .follow-costgro-list{
+		text-align: center;
+	}
+	.footer .follow-costgro-head{
+		text-align: center;
+	}
+	.footer .shop-costgro .shop-costgro-right-list{
+		text-align: center;
+		border-top: 1px dashed black;
+	}
+	.shop-costgro-left-list{
+		margin-right: 0;
+		float: none;
+		text-align: center;
+	}
+	.shop-costgro-head{
+		text-align: center;
+	}
+	.footer .shop-costgro .shop-costgro-left-list{
+		margin-right: 0;
+		float: none;
+	}
+	.footer .custom-service-head{
+		text-align: center;
+	}
+	.custom-service-list{
+		text-align: center;
+	}
+	.right-block{
+		margin-right: 0;
+	}
+	.left-side .join-newsletter .join-newsletter-line input{
+		margin: 0 auto;
+		width: 155px;
+	}
+	.left-side{
+		margin-left: 0;
+		text-align: center;
+	}
+	.blog-post .container .blog-post-img-button{
+		padding-left: 0;
+		text-align: center;
+	}
+	.blog-post .container .blog-post-img-description{
+		width: 100%;
+	}
+	.blog-post .container .blog-post-img .blog-post-img-title h2{
+		font-size: 30px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	.blog-post .container .blog-post-img-description p{
+		padding-left: 0;
+		text-align: center;
+	}
+	.blog-post .container .blog-post-img{
+		background-size: 1005px;
+	}
+	.header .header-logo-nav{
+		float: none;
+		display: block;
+	}	
+	.header .header-search .search-line input{
+		margin: 0 auto;
+	}
+	.header .header-search .header-search-nav{
+		text-align: center;
+	}
+	.search-line{
+		margin-left: 0;
+	}
+	.header .header-search .search-line{
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.right-block1-coments{
+		margin-top: -155px;
+	}
+	.right-block2-coments{
+		margin-top: -155px;
+	}
+	.right-block3-coments{
+		margin-top: -155px;
+	}
+	.blog-post .container .blog-post-img{
+		background-size: 1200px;
+	}
+	.header .header-logo-nav img{
+		float: none;
+	}
+	.header .header-logo-nav p{
+		float: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

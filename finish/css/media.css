@@ -1,0 +1,136 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.sh {
+		
+	}
+	footer .hidden-xs .container {
+
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+			height: 144vh;
+		}
+	.left_text {
+		text-align: center;
+		width: 100%;
+
+	}
+	.left_descr {
+		width: 90%;
+		text-align: center;
+	} 
+
+	.center_block {
+		text-align: center;
+	}
+
+	.right_text {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.right_descr{
+		width: 90%;
+		text-align: center;
+	}
+	
+	.right_logo {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.right_logo img {
+	  height: 100%;
+	}
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	body {
+		height: 143vh;
+	}
+
+	.left_descr {
+		width: 70%;
+	}
+	.right_descr{
+		width: 70%;
+	}
+	.right_logo {
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	body {
+		height: 150vh;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

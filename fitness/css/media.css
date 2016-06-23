@@ -1,0 +1,424 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.nav-menu {
+		margin-left: 0;
+	}
+	.nav-menu ul li {
+		margin-right: 10px;
+	}
+	.button-get {
+		margin-left: 0;
+	}
+	.pc_apple_text{
+		margin-top: 11em;
+		width: 100%;
+		text-align: center;
+	}
+	.free_ebook_block_right {
+		width: 66.6%;
+		text-align: center;
+	}
+	.nutrion {
+		margin-left: 0;
+	} 
+	.free_ebook_list {
+		margin-bottom: 2em;
+		margin-left: 2em;
+	}
+	.up1 {
+		margin-top: 0;
+	}
+	.button-sing .btn{
+		margin-left: 37px;
+	}
+	.painting{
+		margin-left: 20px;
+	}
+	.sing_up_name {
+		font-size: 22px;
+	}
+	.free_ebook_text_up {
+		margin-left: 140px;
+	}
+	.free_ebook_text_center{
+		margin-top: 233px;
+	}
+	.photo3_block img{
+		margin-top: 0;	
+	}
+	.icon1_block img {
+		margin-top: 25px;
+	}
+	.icon2_block1 img {
+		margin-left: 139px;
+
+	}
+	.icon2_block1 {
+		margin-top: 33px;
+	}
+	.wrap_icon4_row_3 {
+		margin-left: 2em;
+	}
+	.button_let_me {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.will {
+		text-align: center;
+	}
+	.click_up p {
+		margin-top: 0;
+	}
+	.down-fluid .nav-menu {
+		margin-top: -18px;
+	}
+	.wrap_video {
+		margin-top: -394px;	
+	}
+	.aroww {
+		text-align: center;
+		margin-left: 0;
+	}
+	.pc_apple_text {
+		margin-top: 120px;
+	}
+	.sing_fluid {
+		margin-top: 56px;
+	}
+	.wrap_video iframe {
+		height: 18em;	
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.nav-logo {
+		text-align: center;
+		display: block;
+	}
+	.button-get {
+		text-align: center;
+		display: block;
+	}
+	.nav-menu {
+		display: block;
+		text-align: center;
+	}
+	.pc_apple_text{
+		margin-top: 1em;
+	}
+	.place_data_mail{
+		margin-left: 13px;
+	}
+	.wrap_video {
+		margin-top: -297px;	
+	}
+	.sing_fluid {
+		margin-top: 28px;
+	}
+	.place_data_name{
+		width: 50%;
+	}
+	.place_data_mail{
+		margin-left: 0;
+		width: 50%;
+	}
+	.button-sing{
+	margin-top: 0;
+	text-align: center;
+	}
+	.willpower_block{
+		padding-left: 90px;
+	}
+	.izabela_block img{
+		margin-left: -100px;
+	}
+	.wrap_photo1 {
+		text-align: center;
+	}
+	.sing_up_name{
+		display: block;
+		margin-left: 0;
+	}
+	.free_ebook_text_up p{
+		text-align: center;
+		font-size: 18px;
+	}
+	.free_ebook_text_up{
+		margin: 20px auto;
+		display: block;
+	}
+	.free_ebook_text_center{
+		margin-top: 82px;
+	}
+	.free_ebook_text_down{
+		width: 50%;
+		margin-left: 0;
+	}
+	.wrap_icon4_row_3 {
+		margin-left: 0;
+	}
+	.fitness_block {
+		text-align: center;
+	}
+	.up1 {
+		font-size: 25px;
+	}
+	.button_get_sing_body .btn-warning {
+		font-size: 18px;
+	}
+	.photo2_block {
+		text-align: center;
+	}
+	.photo1_block_down{
+		text-align: center;
+	}
+	.wrap_photo4 {
+		text-align: center;
+	}
+	.down-fluid .nav-menu {
+		margin-top: 0;
+	}
+	.free_ebook_wrap_photo {
+		text-align: center;
+	}
+	.photo1_block {
+		text-align: center;
+	}
+	.free_ebook_block_right{
+		width: 100%;
+	}
+	.fitness {
+		margin-right: 0;
+	}
+	.nutrion {
+		margin-left: 0;
+	} 
+	.click_link_page2 a {
+		font-size: 17px;
+		padding: 10px 50px;
+	}
+	.photo1_block {
+		text-align: center;
+	}
+	.wrap_video iframe {
+		height: 13.5em;	
+	}
+	.click_link_page2 .btn-warning {
+		padding: 9px 6px;
+		font-size: 17px
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.photo2_block {
+		text-align: center;
+	}
+	.photo2_block {
+		margin-bottom: 2em;
+	}
+	.click_link_page2 a {
+		font-size: 12px;
+		padding: 10px 71px;
+	}
+	.wrap_video {
+		margin-top: -407px;	
+	}
+	.row_2_button button {
+		font-size: 22px;
+	}
+	.wrap_video {
+		
+	}
+	.pc_apple_text {
+		margin-top: 25%;
+	}
+	.pc_apple img {
+		width: 280px;	
+		height: 215px;	
+	}
+	.wrap_video iframe {
+		margin-top: 200px;	
+		width: 257px;	
+		height: 152px;	
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.aroww{
+		margin-top: 0;
+		text-align: center;
+		margin-left: 0;
+	}
+	.aroww_block{
+		display: inline-block;
+	}
+	.pc_apple_text{
+		width: 100%;
+		text-align: center;
+	}
+	.willpower_block{
+		padding: 0;
+	}
+	.izabela_block img{
+		margin-left: 15%;
+	}
+	.free_ebook_text_center{
+		margin-left: 0;
+		width: 100%	;
+	}
+	.sing_up_name {
+		font-size: 20px;
+	}
+	.free_ebook_text_center{
+		display: block;
+		text-align: center;
+	}
+	.photo2 {
+		text-align: center;
+		float: none;
+	}
+	.photo3_block{
+		text-align: center;
+	}
+	.free_ebook_text_down {
+		width: 100%;	
+	}
+	.free_ebook_text_down p {
+		text-align: center;
+	}
+	.free_ebook_text_down h4 {
+		text-align: center;
+	}
+	.free_ebook_wrap_photo {
+		text-align: center;
+	}
+	.free_ebook_block_right {
+		width: 100%;
+	}
+	.wrap_icon5_row_3 {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.wrap_icon4_row_3 {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.wrap_p5_row_3 {
+		margin-left: 3em;
+		width: 100%;
+		text-align: center;
+	}
+	.wrap_p4_row_3 {
+		text-align: center;
+		display: block;	
+		width: 100%;
+	}
+	.wrap_icon2_row_2 {
+		margin-left: 2em;
+	}
+	.wrap_icon1_row_2 {
+		margin-left: 3em;
+	}
+	.wrap_icon3_row_2 {
+		margin-left: 3em;
+	}
+	.wrap_icon1_row_2 {
+		margin-top: -0.5em;
+	}
+	.button_get_sing_body .btn-warning {
+		font-size: 18px;
+	}
+	.click_link {
+		font-size: 25px;
+	}
+	.button_let_me .btn-warning {
+		font-size: 30px;
+		padding: 12px 40px;
+	}
+	.click_link_page2 .btn-warning {
+		padding: 9px 0px;
+		font-size: 16px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 570px) {
+	.izabela_block img {
+		margin-left: -100px;	
+	}
+	.btn_btn_warning .btn-warning {
+		margin-left: 0;
+	}
+	.button_let_me .btn-warning {
+		padding: 0 0;
+	}
+	.click_link_page2 .btn-warning {
+		font-size: 9px;
+		padding: 10px 1px;
+	}
+	.button_let_me .btn-warning {
+		font-size: 20px;
+		padding: 0 10px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
