@@ -1,0 +1,219 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header_top .nav_top_mnu ul li {
+		margin-right: 15px;
+	}
+	.slick-dots li {
+		width: 135px;
+	}
+	.slick-dots {
+		margin-top: -600px;
+	}
+	.idea {
+		margin-top: 600px;
+	}
+	.footer_list_mnu ul li a {
+		margin-right: 13px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.idea {
+		margin-top: 500px;
+	}
+	.header_top .social_link ul li {
+		margin-right: 10px;
+	}
+	.play_video{
+		margin-top: 15px;
+		animation-delay: .8s;
+	}
+	.slick-dots {
+		margin-top: -480px;
+	}
+	.slick-dots li {
+		width: 100px;
+	}
+	.slick-dots li:nth-child(1) button:before {
+		left: -7px;
+	}
+	.footer_social_link ul li {
+		margin-right: 8px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.icon_up {
+		display: block;
+		text-align: right;
+	}
+	.footer_social_link {
+		display: none;
+	}
+	.footer_list_mnu ul li a {
+		display: none;
+	}
+	.footer_text p {
+		display: none;
+	}
+	.footer_logo_left {
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.footer_logo_center {
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.footer_logo_right {
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.idea_icon_block {
+		text-align: center;
+	}
+	.idea_icon_block p{
+		margin: 0 auto;
+	}
+	.img1, .img2, .img3, .img4, .img5, .img6 {
+		margin: 0 auto;
+	}
+	.idea {
+		margin-top: 60%;
+	}
+	.img_sl img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.slick-dots li {
+		width: 25%;
+	}
+	.slick-dots {
+		margin-top: -73%;
+	}
+	.header_deskr{
+		margin-top: 20px;
+	}
+	.header_top .nav_top_mnu ul li{
+		margin-right: 10px;
+	}
+	.header_top .social_link{
+		float: none;
+		text-align: center;
+	}
+	.header_deskr p{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.header_deskr_down {
+		
+		margin-top: 20px;
+	}
+	.sw-bottom, .sw-footer, .sw-topper{
+		background: #fff;
+	}
+	.nav_top_mnu{
+		display: none;
+	}
+
+	.toggle_mnu{
+		display: block;
+		margin-top: 25px;
+		margin-right: 25px;
+	}
+	.wrap_nav{
+		display: block;
+	}
+	.social_icon {
+		display: none;
+	}
+	.play_video {
+		margin-top: 70px;
+	}
+	.play_video p {
+		width: 228px;
+		margin-left: 10px;
+	}
+	.play_video img {
+		margin-top: -25px;
+	}
+	.footer_social_link ul li {
+		margin-right: 13px;
+	}
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.input {
+		width: 100%;
+		color: #fff;
+	}
+	.slick-dots {
+		margin-top: -81%;
+	}
+	.slick-dots li{
+		width: 30%;
+	}
+
+
+	/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	.slick-dots {
+		margin-top: -93%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
